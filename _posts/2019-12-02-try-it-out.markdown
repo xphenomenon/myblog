@@ -1,0 +1,24 @@
+---
+layout: default
+title:  "Let's Try it out!"
+date:   2019-12-02 11:43:34 +0800
+categories: jekyll update
+---
+
+Actually I would like to write this blog about programming, and something else.
+
+So how could I do this? The very point of this is to do more practice on This one.
+
+You'll find this post in your `_posts` directory. So go ahead and edit it and re-build the site to see your changes.
+
+I believe you'll find it very interesting. OK let's try it out.
+
+{{ site.name }}
+
+{% highlight ruby linenos %}
+def foo
+  puts 'foo'
+end
+{% endhighlight %}
+
+
