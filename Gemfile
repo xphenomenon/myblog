@@ -23,6 +23,8 @@ group :jekyll_plugins do
   # gem "jekyll-assets"
 end
 
+gem 'github-pages'
+
 gem 'jekyll-compose', group: [:jekyll_plugins]
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
