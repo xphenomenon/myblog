@@ -4,15 +4,7 @@ title:  "Let's Try it out!"
 date:   2019-12-02 11:43:34 +0800
 categories: jekyll update
 author: Joseph Chen
-author1: DAVE
 ---
-
-{% assign author = site.data.people[page.author] %}
-<a rel="author"
-  href="https://twitter.com/{{ author.twitter }}"
-  title="{{ author.name }}">
-    {{ author.name }}
-</a>
 
 Actually I would like to write this blog about programming, and something else.
 
@@ -24,11 +16,6 @@ I believe you'll find it very interesting. OK let's try it out.
 
 {{ site.name }}
 {{ page.author }}
-{{ page.author }}
-{{ page.author1 }}
-{{ page.author1 }}
-{{ page.author1 }}
-{{ page.author1 }}
 
 {% highlight ruby linenos %}
 def foo
