@@ -124,7 +124,7 @@ author: "HELLO"
               <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
                <dt><time>{{ post.date | date: "%d %b %y" }}</time></dt>
                <dt><time>{{ post.author }}</time></dt>
-              <p> {{ post.content | truncatehtml | truncate: 100 }} </p>
+              <p> {{ post.content | truncatehtml | truncate: 50 }} </p>
               <p><a href="{{ site.baseurl }}{{ post.url }}"><span class="btn btn-primary" >閱讀全文</span></a></p>
 						</div>
 					</a>
