@@ -116,14 +116,16 @@ author: "HELLO"
 
       {% for post in site.posts limit:31 %}
 				<div class="col-lg-4 col-md-4 col-sm-6">
-					<a href="images/img_1.jpg" class="fh5co-card-item image-popup">
-						<div class="fh5co-text">
-              <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-               <dt><time>{{ post.date | date: "%d %b %y" }}</time></dt>
-               <dt><time>{{ post.author }}</time></dt>
-              <p> {{ post.content | truncatehtml | truncate: 50 }} </p>
-              <p><a href="{{ site.baseurl }}{{ post.url }}"><span class="btn btn-primary" >閱讀全文</span></a></p>
-						</div>
+					
+					<div class="fh5co-text">
+						<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+						<dt><time>{{ post.date | date: "%d %b %y" }}</time></dt>
+						<dt><time>{{ post.author }}</time></dt>
+						<p> {{ post.content | truncate: 150 }} </p>
+						<p><a href="{{ site.baseurl }}{{ post.url }}">
+							<span class="btn btn-primary" >閱讀全文</span></a>
+						</p>
+					</div>
 					</a>
 				</div>
       {% endfor %}
