@@ -14,8 +14,9 @@ layout: default
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
       {%- endif -%}</p>
   </header>
+  
   <div style="text-align:right; margin:0px auto 0px auto;">
-      <div  class="line-it-button" data-lang="zh_Hant" data-type="share-b" data-ver="3" data-url="https://dailybread.thejc.xyz/{{page.url}}" data-color="default" data-size="small" data-count="false" style="display: none;"></div>
+      <div  class="line-it-button" data-lang="zh_Hant" data-type="share-b" data-ver="3" data-url="{{page.url | absolute_url }}" data-color="default" data-size="small" data-count="false" style="display: none;"></div>
       <script src="https://d.line-scdn.net/r/web/social-plugin/js/thirdparty/loader.min.js" async="async" defer="defer"></script>
   </div>
     
