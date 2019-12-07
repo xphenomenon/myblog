@@ -29,6 +29,7 @@ url: "https://dailybread.thejc.xyz" # the base hostname & protocol for your site
 permalink: /:categories/:year/:month/:day/:title
 twitter_username: jekyllrb
 github_username:  jekyll
+timezone: Asia/Taipei
 
 # Build settings
 theme: minima
